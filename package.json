@@ -4,6 +4,7 @@
   "description": "landing page untuk toko material bangunan",
   "main": "index.js",
   "scripts": {
+    "start": "serve public", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gian Nurwana",
