@@ -38,7 +38,7 @@ body {
 }
 
 .btn {
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 /* navbar */
@@ -78,7 +78,17 @@ body {
 /* product */
 .card:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  transition: .3s;
+  transition: 0.3s;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.btn-product,
+.list-group-item,
+.card-text {
+  font-size: 0.9rem;
 }
 
 /* google maps */
@@ -100,14 +110,6 @@ body {
 
 /* md */
 @media (max-width: 768px) {
-  .card-title {
-    font-size: 1rem;
-  }
-
-  .card-text,
-  .btn-product {
-    font-size: 0.9rem;
-  }
 }
 
 /* sm */
