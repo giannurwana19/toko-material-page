@@ -57,6 +57,10 @@ body {
   margin-top: 72px;
 }
 
+.jumbotron {
+  margin-bottom: -32px;
+}
+
 .carousel-item img {
   display: block;
   width: 100%;
